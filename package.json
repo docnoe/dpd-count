@@ -1,0 +1,28 @@
+{
+  "name": "dpd-count",
+  "version": "0.0.1",
+  "description": "Deployd plugin that makes it easy to count documents. Warning! This plugin adds an 'ON COUNT' event to all collections! Make sure to restrict access there!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "deployd",
+    "dpd",
+    "count"
+  ],
+  "author": "Johannes Noe <info@johannesnoe.com> (https://github.com/docnoe)",
+  "license": "Apache License Version 2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "deployd": "^0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:docnoe/dpd-count.git"
+  },
+  "bugs": {
+    "url": "https://github.com/docnoe/dpd-count/issues"
+  },
+  "homepage": "https://github.com/docnoe/dpd-count"
+}
