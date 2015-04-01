@@ -4,6 +4,8 @@ Deployd plugin that makes it easy to count documents.
 
 **Warning!** This plugin adds an 'ON COUNT' event to all collections! Make sure to restrict access there!
 
+**Only tested with deployd 0.7**
+
 ## Why
 
 Deployd is built so that only 'root' can count documents. But sometimes it can be useful to count documents that match a query from frontend, too.
